@@ -1,5 +1,5 @@
 ﻿html {
-    background-image: url("Project_2-master/Resources/Background.jpg");
+    background-image: url("https://github.com/AArreguin/Project-3/tree/master/Resources/Background.jpg");
     background-color: #cccccc;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
@@ -8,7 +8,6 @@
     padding: 0;
     border: 0;
     vertical-align: baseline;
- 
 }
 
 * {
