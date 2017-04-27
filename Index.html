@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/Style.css">
     <title>Arthur Arreguin: Index</title>
 </head>
+
 <body>
     <h1> Arthur Arreguin</h1>
     <ul>
@@ -17,10 +18,24 @@
 
     </ul>
     <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAWgAAAAJDBjODg5N2MyLTZlNTctNGEyOC1hZDU5LWEzYjZkZTljZDVjZQ.jpg" alt="Profile Pic" />
-    <p>Welcome, Use the bulleted buttons to find the information you seek.</p>
-<footer>
-    <h4> Designed by me, Work in progess.</h4>
-    <p>Contact information: <a href="AArreguin@hawk.iit.edu">AArreguin@hawk.iit.edu</a></p>
-</footer>
+    <p align="center"><a>Villa Morelos, Town Center</a></p>
+    <div id="map" style="width:600px;height:600px"></div>
+    <script>
+        function myMap() {
+             var mapOptions = {
+                 center: new google.maps.LatLng(20.003795031001562, -101.41228759275691),
+                  zoom: 18,
+                 mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+          var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN0IeZsZ0C06e0E7JVP55YKhj2CdzI3c8&callback=myMap"></script>
+
+        <footer>
+            <h4> Designed by me, Work in progess.</h4>
+            <p>Contact information: <a href="AArreguin@hawk.iit.edu">AArreguin@hawk.iit.edu</a></p>
+            
+        </footer>
 </body>
 </html>
